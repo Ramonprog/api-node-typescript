@@ -1,9 +1,9 @@
-import express from "express";
+import express from 'express';
 
 const server = express();
 
-server.get("/", (_, res) => {
-  return res.send("olá ,mundo");
+server.get('/', (_, res) => {
+  return res.send('olá ,mundo');
 });
 
 export { server };
